@@ -11,8 +11,7 @@ Youtube Video:
 ## Methodology
 
 ## 1.Handling Datasets
-
-
+The data preprocessing involved removing non-essential metadata and allowing LightGBM to handle any missing values during training. Unlike many machine learning models that require explicit imputation, LightGBM can manage missing values during tree creation, treating them as a separate category
 
 ## 2.Model Selection
 
